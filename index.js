@@ -1,3 +1,5 @@
+require("dotenv").config(); // reads the values from .env file and merges them into process.env
+
 const server = require("./api/server.js");
 
 //the port should be dynamic so the heroku server can assign a port when deploying
